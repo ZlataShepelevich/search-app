@@ -1,6 +1,8 @@
 # WEB приложение "Поиск"
 Для запуска необходимо установить Docker, запустить контейнер и саму программу.  
 
+---
+
 Для основного доступа используйте http://localhost:8080/index.html  
 
 Для запуска необходимо установить Maven (у меня 3.9.8), JDK и Docker.
@@ -10,4 +12,4 @@
 - cd путь_к_папке_проекта (переходим в папку проекта)
 - docker-compose up
 - mvn install
-- java -jar target/search-app-0.0.1-SNAPSHOT.jar
+- java -jar target/search-app-0.0.1-SNAPSHOT.jar или mvn spring-boot:run (запустить программу можно и в IDE)
